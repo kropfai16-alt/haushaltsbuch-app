@@ -1,8 +1,12 @@
-# Mein Haushaltsbuch 2.0
+# Mein Haushaltsbuch 2.1
 
-[Android-App direkt herunterladen](./Mein-Haushaltsbuch-2.0.apk?raw=true)
+[Android-App direkt herunterladen](./Mein-Haushaltsbuch-2.1.apk?raw=true)
 
 Komplett offline ab Android 8. Modernisierte Oberfläche mit großen Bedienelementen und Navigation für Haushalt, Konten und Export. Die App benötigt keine Internetberechtigung.
+
+## Korrektur in Version 2.1
+
+Eine mehrdeutige SQL-Sortierung verhinderte das Öffnen eingerichteter Konten und damit den Zugriff auf die Bearbeitung. Die Kassenbuch-Abfrage verwendet jetzt eindeutige Spaltennamen. Öffnen aller 14 Kassenbücher und nachträgliche Änderungen an Konten mit und ohne Buchungen im Datenbanktest geprüft. Das Datenbankschema ist unverändert.
 
 ## Als Update installieren
 
